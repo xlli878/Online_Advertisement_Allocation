@@ -1,4 +1,4 @@
-# Online-Advertisement-Allocation
+# Online_Advertisement_Allocation
 In this package, we have all files and datasets running on Matlab with the solver package Gurobi.
 
 File 1: ''AdFairnessTargets.m'', which is the main code of our simulation with comparing five policies under different cases to generate Figure 2 and 3 and Table 3 in the paper. It has four sections:\
