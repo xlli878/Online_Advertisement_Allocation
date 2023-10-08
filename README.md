@@ -9,9 +9,9 @@ File 1: ''AdFairnessTargets.m'', which is the main code of our simulation with c
 
 File 2: ''AdTimeComparison.m'', which is the code for comparison of average solving times to generate Table 1 in the paper.
 
-Dataset 1: ''AdSetting.mat'', which is the basic setting part of ''AdMain.mat'' and can be inputs to ''AdFairnessTargets.m''.
+Dataset 1: ''AdSetting.mat'', which is the basic setting part and can be inputs to ''AdFairnessTargets.m''.
 
-Dataset 2: ''AdFigure.mat'', which is the results part of ''AdMain.mat'' to show Figure 2 and 3 in the paper.
+Dataset 2: ''AdFigure.mat'', which is the results part to show Figure 2 and 3 in the paper.
 
 We show how to use the files and datasets as follows:
 1. To qualitatively replicate the similar results of the paper under the same basic setting (the same inputs), please load the dataset ''AdSetting.mat'' by using ''load('AdSetting.mat')'', skip section 1 ''Basic setting'' in ''AdFairnessTargets.m'', comment the codes under the comments: ''construct the requirements eta'' in line 201-212 in section 2 ''Main Simulation'', and then run the remaining sections. Figure 1-3 corespond to Figure 2 (a)-(c) in the paper and Figure 4-8 corespond to Figure 3 (a)-(e) in the paper respectively.
